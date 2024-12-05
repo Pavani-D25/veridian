@@ -99,17 +99,147 @@
 
 
 
+// import React from "react";
+// import { ThemeProvider } from "@mui/material/styles";
+// import theme from "./theme/theme";
+// import AboutGrid from "./components/About/Features";
+
+// function App() {
+//   return (
+//     <ThemeProvider theme={theme}>
+//       <AboutGrid />
+//     </ThemeProvider>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+// import React from "react";
+// import { ThemeProvider } from "@mui/material/styles";
+// import theme from "./theme/theme";
+// import InvestmentCard from "./components/InvestmentApproach/Card";
+
+// function App() {
+//   return (
+//     <ThemeProvider theme={theme}>
+//       <InvestmentCard />
+//     </ThemeProvider>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react';
+// import { ThemeProvider } from '@mui/material/styles';
+// import theme from './theme/theme';
+// import Footer from './components/Footer';
+
+// const App = () => {
+//   return (
+//     <ThemeProvider theme={theme}>
+//       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+//         <Footer />
+//       </div>
+//     </ThemeProvider>
+//   );
+// };
+
+// export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme/theme";
-import ValuesGrid from "./components/About/Features";
+import PersonA from "./components/OurTeam/PersonA";
+import PersonB from "./components/OurTeam/PersonB";
+import PersonC from "./components/OurTeam/PersonC";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <ValuesGrid />
+      <PersonA />
+      <PersonB />
+      <PersonC />
     </ThemeProvider>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+

@@ -15,7 +15,7 @@
 
 // import cardData from "./cardData.json";
 
-// const ValuesGrid = () => {
+// const AboutGrid = () => {
 //   const classes = useStyles();
 
 //   return (
@@ -39,7 +39,7 @@
 //   );
 // };
 
-// export default ValuesGrid;
+// export default AboutGrid;
 
 
 
@@ -53,7 +53,7 @@
 // import useStyles from "./styles";
 // import cardData from "./cardData.json";
 
-// const ValuesGrid = () => {
+// const AboutGrid = () => {
 //   const classes = useStyles();
 
 //   return (
@@ -76,7 +76,7 @@
 //   );
 // };
 
-// export default ValuesGrid;
+// export default AboutGrid;
 
 
 
@@ -91,7 +91,7 @@ import { Grid, Card, Typography, Box } from "@mui/material";
 import useStyles from "./styles";
 import cardData from "./cardData.json";
 
-const ValuesGrid = () => {
+const AboutGrid = () => {
   const classes = useStyles();
 
   return (
@@ -116,4 +116,4 @@ const ValuesGrid = () => {
   );
 };
 
-export default ValuesGrid;
+export default AboutGrid;
