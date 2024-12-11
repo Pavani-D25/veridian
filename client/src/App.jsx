@@ -1,24 +1,24 @@
-// import React from "react";
-// import { BrowserRouter as Router } from "react-router-dom";
-// import AppRoutes from "./routes/Routes"; // Your routes file
-// import Navbar from "./components/Navbar";
-// import Layout from "./layout"; // Import the Layout component
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes/Routes"; // Your routes file
+import Navbar from "./components/Navbar";
+import Layout from "./layout"; // Import the Layout component
 
-// const App = () => {
-//   return (
-//     <Router>
-//       {/* Fixed Navbar */}
-//       <Navbar />
+const App = () => {
+  return (
+    <Router>
+      {/* Fixed Navbar */}
+      <Navbar />
 
-//       {/* Wrap Routes with Layout */}
-//       <Layout>
-//         <AppRoutes />
-//       </Layout>
-//     </Router>
-//   );
-// };
+      {/* Wrap Routes with Layout */}
+      <Layout>
+        <AppRoutes />
+      </Layout>
+    </Router>
+  );
+};
 
-// export default App;
+export default App;
 
 
 
@@ -216,26 +216,24 @@
 
 
 
-import React from "react";
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "./theme/theme";
-import PersonA from "./components/OurTeam/PersonA";
-import PersonB from "./components/OurTeam/PersonB";
-import PersonC from "./components/OurTeam/PersonC";
+// import React from "react";
+// import { ThemeProvider } from "@mui/material/styles";
+// import theme from "./theme/theme";
+// import PersonA from "./components/OurTeam/PersonA";
+// import PersonB from "./components/OurTeam/PersonB";
+// import PersonC from "./components/OurTeam/PersonC";
 
-function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      <PersonA />
-      <PersonB />
-      <PersonC />
-    </ThemeProvider>
-  );
-}
+// function App() {
+//   return (
+//     <ThemeProvider theme={theme}>
+//       <PersonA />
+//       <PersonB />
+//       <PersonC />
+//     </ThemeProvider>
+//   );
+// }
 
-export default App;
-
-
+// export default App;
 
 
 
@@ -243,3 +241,28 @@ export default App;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import OurTeam from "./components/OurTeam";
+
+// const App = () => {
+//   return (
+//     <div>
+//       <h1>Meet Our Team</h1>
+//       <OurTeam />
+//     </div>
+//   );
+// };
+
+// export default App;

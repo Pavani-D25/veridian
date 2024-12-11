@@ -1,49 +1,49 @@
-// import { makeStyles } from "@mui/styles";
+// // import { makeStyles } from "@mui/styles";
 
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     padding: "20px",
-//     backgroundColor: theme.palette.background.default,
-//     [theme.breakpoints.up('md')]: {
-//       display: "flex",
-//       justifyContent: "space-between",
-//     },
-//   },
-//   card: {
-//     borderRadius: "10px",
-//     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-//     overflow: "hidden",
-//     height: "665px",
-//     width:"382px",
-//     [theme.breakpoints.up('md')]: {
-//       height: "auto",
-//     },
-//   },
-//   cardMedia: {
-//     height: "317px !important",
-//     width: "186px !important",
-//     objectFit: 'cover', 
+// // const useStyles = makeStyles((theme) => ({
+// //   root: {
+// //     padding: "20px",
+// //     backgroundColor: theme.palette.background.default,
+// //     [theme.breakpoints.up('md')]: {
+// //       display: "flex",
+// //       justifyContent: "space-between",
+// //     },
+// //   },
+// //   card: {
+// //     borderRadius: "10px",
+// //     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+// //     overflow: "hidden",
+// //     height: "665px",
+// //     width:"382px",
+// //     [theme.breakpoints.up('md')]: {
+// //       height: "auto",
+// //     },
+// //   },
+// //   cardMedia: {
+// //     height: "317px !important",
+// //     width: "186px !important",
+// //     objectFit: 'cover', 
 
-//   },
-//   title: {
-//     fontWeight: 600,
-//     color: theme.palette.primary.main,
-//     marginTop: "15px",
-//   },
-//   text: {
-//     fontSize: "16px",
-//     marginTop: "10px",
-//     color: theme.palette.text.primary,
-//   },
-//   section: {
-//     margin: "10px 0",
-//     [theme.breakpoints.up('md')]: {
-//       width: "30%",
-//     },
-//   },
-// }));
+// //   },
+// //   title: {
+// //     fontWeight: 600,
+// //     color: theme.palette.primary.main,
+// //     marginTop: "15px",
+// //   },
+// //   text: {
+// //     fontSize: "16px",
+// //     marginTop: "10px",
+// //     color: theme.palette.text.primary,
+// //   },
+// //   section: {
+// //     margin: "10px 0",
+// //     [theme.breakpoints.up('md')]: {
+// //       width: "30%",
+// //     },
+// //   },
+// // }));
 
-// export default useStyles;
+// // export default useStyles;
 
 
 
@@ -79,6 +79,10 @@ const useStyles = makeStyles((theme) => ({
       flexWrap: 'wrap', 
       justifyContent: 'center',
     },
+[theme.breakpoints.down("sm")]: {
+  flexDirection: "column",
+  alignItems: "center",
+},
   },
   card: {
     backgroundColor: theme.palette.secondary.main,
@@ -92,6 +96,8 @@ const useStyles = makeStyles((theme) => ({
     margin: '10px',
     [theme.breakpoints.down('sm')]: {
       width: '100%',
+      padding: '0px',
+      
     },
   },
   image: {
@@ -124,3 +130,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default useStyles;
+
+
+
+
+
+
+

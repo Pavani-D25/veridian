@@ -5,8 +5,8 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    padding: "2rem",
-    backgroundColor: theme.palette.background.default,
+    padding: "0rem",
+    backgroundColor: "none",
   },
   parallelogram: {
     display: "flex",

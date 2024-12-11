@@ -8,12 +8,9 @@ const Layout = ({ children }) => {
 
   return (
     <Box className={classes.layoutContainer}>
-      {/* Navbar */}
       <Box className={classes.navbarPlaceholder}>
-        {/* Your Navbar component */}
       </Box>
 
-      {/* Main Content */}
       <Box className={classes.content}>
         {children}
       </Box>
