@@ -9,12 +9,13 @@ const useStyles = makeStyles({
   navbar: {
     display: "flex",
     alignItems: "center",
-    padding: "0px 20px", 
+    padding: "7px 20px", 
     backgroundColor: "#ffff",
     borderBottom: "2px solid #ddd",
     position: "fixed",
     width: "100%",
     zIndex: 1000,
+    margin: "-8px",
   },
   logoSection: {
     display: "flex",

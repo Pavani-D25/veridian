@@ -17,10 +17,10 @@ const useStyles = makeStyles((theme) => ({
     clipPath: "polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%)",
     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
     padding: "3rem 8rem 0 5rem",
-    width: "80% !important",
+    width: "88% !important",
     height: "407px !important",
     overflow: "hidden",
-    backgroundColor: "lavender",
+    backgroundColor: theme.palette.secondary.main,
     marginBottom: "0px !important",
   },
   imageContainer: {

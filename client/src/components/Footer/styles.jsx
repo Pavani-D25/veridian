@@ -34,9 +34,9 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down("sm")]: {
       "&::before, &::after": {
-        display: "none", // Hide images on mobile
+        display: "none",
       },
-      height: "auto", // Adjust height for mobile
+      height: "auto", 
     },
   },
   title: {

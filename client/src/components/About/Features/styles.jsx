@@ -3,19 +3,19 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: theme.spacing(4),
-    backgroundColor: theme.palette.background.default,
+    padding: theme.spacing(8),
   },
   card: {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    padding: theme.spacing(2),
+    padding: theme.spacing(1.5),
     backgroundColor: theme.palette.secondary.main,
-    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-    borderRadius: theme.shape.borderRadius,
+    boxShadow:"none !important",
+
+    borderRadius: "0px !important",
     height: "100%",
-    width: "560px", 
+    width: "530px", 
   },
   icon: {
     width: "104px",
@@ -30,19 +30,19 @@ const useStyles = makeStyles((theme) => ({
   title: {
     ...theme.typography.h6,
     color: "black",
-    marginBottom: theme.spacing(1),
+    marginBottom: theme.spacing(1) + " !important",
     fontFamily: "IBM Plex Serif !important",
-    fontWeight: 500,
+    fontWeight: "500 !important",
     fontSize: "18px !important",
   },
   description: {
     ...theme.typography.body1,
     color: "#51585e",
-    fontFamily: "DM Sans",
+    fontFamily: "DM Sans !important",
     fontSize: "14px !important",
   },
   grid: {
-    marginTop: theme.spacing(4),
+    marginTop: theme.spacing(-8) + " !important",
   },
   gridItem: {
     padding: theme.spacing(2),

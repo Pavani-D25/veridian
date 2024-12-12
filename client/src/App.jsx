@@ -1,16 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import AppRoutes from "./routes/Routes"; // Your routes file
+import AppRoutes from "./routes/Routes"; 
 import Navbar from "./components/Navbar";
-import Layout from "./layout"; // Import the Layout component
+
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+import Layout from "./layout";
 
 const App = () => {
   return (
     <Router>
-      {/* Fixed Navbar */}
       <Navbar />
 
-      {/* Wrap Routes with Layout */}
       <Layout>
         <AppRoutes />
       </Layout>
@@ -102,12 +103,12 @@ export default App;
 // import React from "react";
 // import { ThemeProvider } from "@mui/material/styles";
 // import theme from "./theme/theme";
-// import AboutGrid from "./components/About/Features";
+// import Features from "./components/About/Features";
 
 // function App() {
 //   return (
 //     <ThemeProvider theme={theme}>
-//       <AboutGrid />
+//       <Features />
 //     </ThemeProvider>
 //   );
 // }

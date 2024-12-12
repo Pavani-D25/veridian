@@ -7,18 +7,20 @@ const useStyles = makeStyles((theme) => ({
   container: {
     display: "flex",
     justifyContent: "center",
-    minHeight: "330px !important",
+    minHeight: "310px !important",
     width:"1150px",
-    boxShadow:"none !important"
+    boxShadow:"none !important",
+    marginLeft:"55px !important"
 
   },
   card: {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    width: "100%",
+    width: "90%",
     borderRadius: "0px !important",
-    boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.1)",
+    boxShadow:"none !important",
+
     backgroundColor: "white",
     padding:"0px 50px !important",
   },
@@ -26,10 +28,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    background:"#CFE1DF",
+    background:"#d9efe9",
     padding:"20px",
-    width:"340.46px",
-    height:"180px"
+    width:"310.46px",
+    height:"170px"
   },
   logo: {
     width: "148px",
@@ -42,9 +44,10 @@ const useStyles = makeStyles((theme) => ({
  
   description: {
     color: "#5a5a5a",
-    lineHeight: 1.6,
+    lineHeight: 1.5,
     fontSize: "14px !important",
-    marginLeft:"220px !important",
+    marginLeft:"190px !important",
+    marginTop:"25px !important",
     fontFamily: " DM Sans    !important",
     marginBottom: `${theme.spacing(2)} !important`,
 

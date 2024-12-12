@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 const useNavbarStore = create((set) => ({
-  isHomeSelected: true, // Default active tab is "Home"
+  isHomeSelected: true, 
   setHomeSelected: (isSelected) =>
     set(() => ({ isHomeSelected: isSelected })),
 }));

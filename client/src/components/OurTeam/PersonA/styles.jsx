@@ -7,6 +7,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     padding: "0rem",
     backgroundColor: "none",
+
   },
   parallelogram: {
     display: "flex",
@@ -17,10 +18,11 @@ const useStyles = makeStyles((theme) => ({
     clipPath: "polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%)",
     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
     padding: "1rem 8rem 0rem 4rem ",
-    width: "80% !important",
+    width: "88% !important",
     height:"407px !important",
     overflow: "hidden",
-    backgroundColor: "lavender",
+    backgroundColor: theme.palette.secondary.main,
+
   },
   imageContainer: {
     display: "flex",

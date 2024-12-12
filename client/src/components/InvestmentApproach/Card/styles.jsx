@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'flex-start',
     padding: '20px',
     width: '1200px',
-    backgroundColor: "#d9efe9",
+    marginLeft: '10px',
 
     flexWrap: 'nowrap', 
     [theme.breakpoints.down('lg')]: {
@@ -90,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
     height: '600px',
     padding: '30px',
     borderRadius: '0px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    boxShadow: 'none',
     display: 'flex',
     flexDirection: 'column',
     margin: '10px',
