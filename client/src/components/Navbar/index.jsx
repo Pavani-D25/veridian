@@ -109,7 +109,7 @@ const Navbar = () => {
     <Box className={classes.navbar}>
       {/* Logo Section - Left */}
       <Box className={classes.logoSection}>
-        <img src="/Veridian-Logo.png" alt="Veridian Logo" className={classes.logo} />
+            <img src="/Veridian-Logo.png" alt="Veridian Logo" className={classes.logo} />
       </Box>
 
       {/* Navigation Tabs - Center */}

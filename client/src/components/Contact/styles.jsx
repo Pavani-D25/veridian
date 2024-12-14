@@ -41,8 +41,8 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontWeight: "bolder !important",
-    fontSize: "32px !important",
-    marginBottom: "10px",
+    fontSize: "35px !important",
+    marginBottom: "15px !important",
     fontFamily: "IBM Plex Sans !important",
   },
   subtitle: {
@@ -69,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#e0b120 !important",
     color: "black !important",
     fontSize: "13px !important",
-    padding: "10px 15px",
+    padding: "10px -1px !important",
     borderRadius: "0px !important",
     fontWeight: "bold !important",
     marginRight: "10px !important",
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     height: "40px",
     padding: "10px 20px",
     borderRadius: "0px !important",
-    width: "300px",
+    width: "240px",
     display: "flex",
     alignItems: "center",
 
