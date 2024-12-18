@@ -1,30 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
 import useStyles from "./styles";
@@ -40,7 +13,7 @@ const PersonB = () => {
         <Grid item xs={12} md={4} className={classes.imageContainer}>
           <div className={classes.imageWrapper}>
             <img
-              src="person2.png" 
+              src="person2.png"
               alt={content.name}
               className={classes.image}
             />

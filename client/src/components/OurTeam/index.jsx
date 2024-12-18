@@ -146,7 +146,7 @@ import { HiArrowNarrowLeft, HiArrowNarrowRight } from "react-icons/hi";
 
 import PersonA from "./PersonA";
 import PersonB from "./PersonB";
-import PersonC from "./PersonC";
+import PersonC from "../../components/OurTeam/PersonC";
 import useStyles from "./styles";
 
 const OurTeam = () => {
