@@ -144,7 +144,7 @@ const useStyles = makeStyles({
   },
   logo: {
     height: "100px",
-    paddingLeft: "20px",
+    paddingLeft: "70px",
     "@media (max-width: 768px)": {
       paddingLeft: "10px",
       height: "65px",
