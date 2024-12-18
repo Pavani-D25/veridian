@@ -22,7 +22,7 @@
 // //   cardMedia: {
 // //     height: "317px !important",
 // //     width: "186px !important",
-// //     objectFit: 'cover', 
+// //     objectFit: 'cover',
 
 // //   },
 // //   title: {
@@ -62,78 +62,115 @@
 
 
 
-
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    padding: '20px',
-    width: '1200px',
-    marginLeft: '10px',
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    padding: "20px",
+    width: "1200px",
+    marginLeft: "10px",
 
-    flexWrap: 'nowrap', 
-    [theme.breakpoints.down('lg')]: {
-      flexWrap: 'wrap', 
-      justifyContent: 'center',
+    flexWrap: "nowrap",
+    [theme.breakpoints.down("lg")]: {
+      flexWrap: "wrap",
+      justifyContent: "center",
     },
-[theme.breakpoints.down("sm")]: {
-  flexDirection: "column",
-  alignItems: "center",
-},
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: "column",
+      alignItems: "center",
+      padding: "0px",
+    },
+    [theme.breakpoints.down("md")]: {
+      flexDirection: "column",
+      alignItems: "center",
+      padding: "0px",
+    },
   },
   card: {
     backgroundColor: theme.palette.secondary.main,
-    width: '378px !important',
-    height: '600px',
-    padding: '30px',
-    borderRadius: '0px',
-    boxShadow: 'none',
-    display: 'flex',
-    flexDirection: 'column',
-    margin: '10px',
-    [theme.breakpoints.down('sm')]: {
-      width: '100%',
-      padding: '0px',
-      
+    width: "378px !important",
+    height: "630px",
+    padding: "30px",
+    borderRadius: "0px",
+    boxShadow: "none",
+    display: "flex",
+    flexDirection: "column",
+    margin: "10px",
+    [theme.breakpoints.down("sm")]: {
+      width: "340px !important",
+      padding: "0px",
+      paddingBottom: "20px",
+      height: "auto",
+    },
+    [theme.breakpoints.down("xs")]: {
+      width: "400px",
+      padding: "0px",
+      paddingBottom: "20px",
+      height: "auto",
     },
   },
   image: {
-    width: '313px',
-    height: '184px',
-    borderRadius: '0px',
-    objectFit: 'cover',
-    marginBottom: '20px !important',
-    margin  : '15px',
+    width: "313px",
+    height: "184px",
+    borderRadius: "0px",
+    objectFit: "cover",
+    marginBottom: "20px !important",
+    margin: "15px",
+    [theme.breakpoints.down("sm")]: {
+      width: "310px",
+    },
   },
   title: {
     color: "black",
-    marginBottom: '20px !important',
-    fontSize:"17px !important",
-    fontFamily:"IBM Plex Serif !important",
+    marginBottom: "20px !important",
+    fontSize: "17px !important",
+    fontFamily: "IBM Plex Serif !important",
+    paddingLeft: "12px !important",
+
     textTransform: theme.typography.h6.textTransform,
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: "15px",
+    },
   },
   description: {
     color: "#717b85",
-    fontSize:"14px !important",
-    lineHeight: '1.5',
-    marginBottom: '10px', 
-    fontWeight: 300, 
-    '&:not(:last-child)': {
-      marginBottom: '20px',
+    fontSize: "14px !important",
+    lineHeight: "1.5",
+    marginBottom: "10px",
+    fontWeight: 300,
+    paddingLeft: "10px !important",
+    paddingRight: "10px !important",
+    "&:not(:last-child)": {
+      marginBottom: "20px",
+    },
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: "15px !important",
+      paddingRight: "10px !important",
     },
   },
-  
-  
+
+  customPagination: {
+    "& .swiper-pagination": {
+      bottom: "10px",
+      width: "100%",
+      textAlign: "center",
+    },
+    "& .swiper-pagination-bullet": {
+      backgroundColor: "#006c5b",
+      width: "10px",
+      height: "10px",
+      opacity: 1,
+      margin: "0px 5px !important",
+    },
+    "& .swiper-pagination-bullet-active": {
+      backgroundColor: "#e4d317",
+      width: "24px",
+      borderRadius: "20px",
+    },
+  },
 }));
 
 export default useStyles;
-
-
-
-
-
-
-

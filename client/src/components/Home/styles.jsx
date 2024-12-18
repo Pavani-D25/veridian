@@ -1,6 +1,7 @@
 
 
 import { makeStyles } from "@mui/styles";
+import { height } from "@mui/system";
 
 const useStyles = makeStyles((theme) => ({
   
@@ -17,6 +18,13 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     marginTop: "70px",
     overflow: "hidden", 
+    "@media (max-width: 768px)": {
+      padding:"0px",
+      height: "660px",
+      marginTop:"-26px",
+      margin: "-10px",
+      
+    },
   },
 
   leftBackground: {
@@ -28,8 +36,15 @@ const useStyles = makeStyles((theme) => ({
     height: "520px",
     transition: "all 0.5s ease", 
     [theme.breakpoints.down("md")]: {
-      width: "80%", 
+      width: "90%",
+      height:"660px"
+
+
     },
+    // "@media (max-width: 768px)": {
+    //   height: "520px ",
+
+    // }
   },
 
   rightBackground: {
@@ -41,7 +56,8 @@ const useStyles = makeStyles((theme) => ({
     height: "520px",
     transition: "all 0.5s ease", 
     [theme.breakpoints.down("md")]: {
-      width: "80%", 
+      width: "100%",
+      height:"660px", 
     },
   },
 

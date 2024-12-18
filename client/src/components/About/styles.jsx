@@ -32,9 +32,17 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles((theme) => ({
   container: {
     padding: theme.spacing(4),
+    "@media (max-width: 768px)": {
+      marginTop:"0px",
+
+    }
   },
   section: {
-    marginBottom: theme.spacing(0), // Adjust this value to control space between sections
+    marginBottom: theme.spacing(0), 
+    "@media (max-width: 768px)": {
+      padding: theme.spacing(0),
+
+    }
   },
   headingContainer: {
     marginBottom: "30px",

@@ -21,7 +21,6 @@ const PersonA = () => {
               alt={content.name}
               className={classes.image}
             />
-            {/* Parallelogram for Name */}
             <div className={classes.nameParallelogram}>
               <Typography variant="h6" className={classes.nameText}>
                 {content.name}
@@ -30,7 +29,6 @@ const PersonA = () => {
           </div>
         </Grid>
 
-        {/* Right Section: Text */}
         <Grid item xs={12} md={8} className={classes.textContainer}>
           <Typography variant="body1" className={classes.description}>
             {content.description}

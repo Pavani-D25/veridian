@@ -34,9 +34,9 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down("sm")]: {
       "&::before, &::after": {
-        display: "none", // Hide images on mobile
+        display: "none", 
       },
-      height: "auto", // Adjust height for mobile
+      height: "auto", 
     },
   },
   title: {
@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "10px !important",
     "&:hover": {},
     [theme.breakpoints.down("sm")]: {
-      padding: "5px 10px",
+      padding: "5px 5px !important" ,
     },
   },
   inputGroup: {

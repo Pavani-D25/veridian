@@ -42,8 +42,8 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import VeridianCard from "./veridianCard";
-import Features from "./Features"; // Second component with the grid of cards
-import useStyles from "./styles"; // Custom styles
+import Features from "./Features"; 
+import useStyles from "./styles"; 
 
 const AboutUs = () => {
   const classes = useStyles();
