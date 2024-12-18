@@ -41,7 +41,7 @@
 
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import VeridianCard from "./veridianCard";
+import VeridianCard from "./VeridianCard";
 import Features from "./Features"; 
 import useStyles from "./styles"; 
 

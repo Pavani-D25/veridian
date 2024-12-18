@@ -64,10 +64,10 @@ const useStyles = makeStyles((theme) => ({
   link: {
     fontSize: "14px !important",
     textDecoration: "none",
-    color: "black !important",
+    color: "#017d58 !important",
     fontFamily: "DM Sans !important",
     "&:hover": {
-      textDecoration: "none",
+      // textDecoration: "none",
     },
     [theme.breakpoints.down("sm")]: {
       marginTop: "4px",
